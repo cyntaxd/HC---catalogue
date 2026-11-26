@@ -7,16 +7,19 @@
     </head>
     <body>
         <div class="navigation">
-            <h2>PEARS CATALOG</h2>
-            <label for="nav-select">i'm looking for... </label>
-            <select id="nav-select">
-                <option value="">select option</option>
-                <option value="appliances.html">applepliances</option>
-                <option value="electronics.html">electronics</option>
-                <option value="boat.html">boats</option>
-                <option value="equipment.html">equipments</option>
-                <option value="stuff.html">stuffs</option>
-            </select>
+            <h2 id="navleft">PEARS CATALOG</h2>
+            <section id="navcenter">
+                <label for="nav-select">i'm looking for... </label>
+                <select id="nav-select">
+                   <option value="">select option</option>
+                   <option value="appliances.html">applepliances</option>
+                   <option value="electronics.html">electronics</option>
+                   <option value="boat.html">boats</option>
+                   <option value="equipment.html">equipments</option>
+                   <option value="stuff.html">stuffs</option>
+                </select>
+                <button type="button" onclick="goToPage()">let's go!</button>
+            </section>
         </div>
         <script src="script.js"></script>
     </body>
