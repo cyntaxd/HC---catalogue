@@ -29,8 +29,44 @@ a {
     font-weight: bold;
 }
 
+#navcenter select {
+    padding: 8px;
+    border: 2px solid #74805b;
+    border-radius: 6px;
+    background-color: #f3f4e8;
+    color: #3d4a32;
+}
+
+#navcenter select:hover {
+    cursor: pointer;
+}
+
+#navcenter select option {
+    background-color: #687a4e;
+    color: #fff;
+}
+
+#navcenter button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(48, 102, 50);
+    color: white;
+    cursor: pointer;
+}
+
+#navcenter button:hover {
+    background-color: rgb(35 78 38);
+}
+
 #navright {
+    display: flex;
+    gap: 3rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 150%;
     font-weight: bold;
+}
+
+#navright a:hover {
+    text-decoration: underline;
 }
