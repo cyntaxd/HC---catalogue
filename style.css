@@ -1,9 +1,15 @@
 body {
     background-color: rgb(199, 255, 166);
+    color:rgb(48, 102, 50);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(48, 102, 50);
 }
 
 .navigation {
-    background-color: rgb(52, 196, 107);
+    background-color: rgb(94, 194, 132);
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -14,5 +20,17 @@ body {
 
 #navleft {
     font-family: "Staatliches", sans-serif;
-    
+    font-size: 300%;
+}
+
+#navcenter {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#navright {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+    font-weight: bold;
 }
