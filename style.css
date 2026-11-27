@@ -4,5 +4,9 @@ body {
 
 .navigation {
     background-color: rgb(52, 196, 107);
-    display: inline-block;
+    width: 95.75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
 }
